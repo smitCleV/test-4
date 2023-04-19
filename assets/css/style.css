@@ -49,6 +49,44 @@
   color: #fff;
 }
 
+.btn-light-danger:hover {
+  background-color: black;
+  border-color: black;
+  color: #fff;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-light-light {
+  background-color: white;
+  border-color: white;
+  color: #000;
+}
+.btn-light-light:hover {
+  background-color: #9fadba;
+  border-color: #9fadba;
+  color: #000;
+}
+
+.btn-dark {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.btn-light-dark {
+  background-color: #4e5862;
+  border-color: #4e5862;
+  color: #fff;
+}
+.btn-light-dark:hover {
+  background-color: black;
+  border-color: black;
+  color: #fff;
+}
+
 @media (prefers-color-scheme: dark) and (prefers-color-scheme: dark) {
   .my-col {
     color: #fff;
