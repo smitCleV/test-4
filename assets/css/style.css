@@ -1,25 +1,78 @@
+.btn-purple_light {
+  background-color: #b85bff;
+  border-color: #b85bff;
+}
+
+.btn-light-purple_light {
+  background-color: #e4c1ff;
+  border-color: #e4c1ff;
+  color: #000;
+}
+
+.btn-light-purple_light:hover {
+  background-color: #6d00c1;
+  border-color: #6d00c1;
+  color: #fff;
+}
+
+.btn-pink_dark {
+  background-color: #68005f;
+  border-color: #68005f;
+}
+
+.btn-light-pink_dark {
+  background-color: #ce00bc;
+  border-color: #ce00bc;
+  color: #fff;
+}
+
+.btn-light-pink_dark:hover {
+  background-color: black;
+  border-color: black;
+  color: #fff;
+}
+
+.btn-custom-color {
+  background-color: #900;
+  border-color: #900;
+}
+
+.btn-light-custom-color {
+  background-color: red;
+  border-color: red;
+  color: #fff;
+}
+
+.btn-light-custom-color:hover {
+  background-color: black;
+  border-color: black;
+  color: #fff;
+}
+
 @media (prefers-color-scheme: dark) and (prefers-color-scheme: dark) {
-    .my-col {
-      color: #fff;
-    }
-  }
-  .padding-div {
-    color: #f8f9fa;
-    background-color: #212529;
-  }
-  
-  .test-fun {
-    background-color: #5c6600;
+  .my-col {
     color: #fff;
   }
-  
-  @media (prefers-color-scheme: light) {
-    .test-mixin {
-      color: #000;
-    }
+}
+
+.padding-div {
+  color: #f8f9fa;
+  background-color: #212529;
+}
+
+.test-fun {
+  background-color: #5c6600;
+  color: #fff;
+}
+
+@media (prefers-color-scheme: light) {
+  .test-mixin {
+    color: #000;
   }
-  @media (prefers-color-scheme: dark) {
-    .test-mixin {
-      color: #fff;
-    }
+}
+
+@media (prefers-color-scheme: dark) {
+  .test-mixin {
+    color: #fff;
   }
+}
